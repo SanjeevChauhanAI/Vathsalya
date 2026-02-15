@@ -1,0 +1,9 @@
+tunnel: 58148887-ea2c-4422-914a-2e6ab3a136eb
+credentials-file: C:\Users\shail\.cloudflared\vathsalyasevasamsthe.json
+
+ingress:
+  - hostname: vathsalyasevasamsthe.com
+    service: http://localhost:8000
+  - hostname: www.vathsalyasevasamsthe.com
+    service: http://localhost:8000
+  - service: http_status:404

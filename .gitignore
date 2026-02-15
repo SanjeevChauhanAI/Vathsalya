@@ -1,0 +1,17 @@
+# Cloudflare executable
+cloudflared.exe
+
+# Certificate files
+*.pem
+cacert.pem
+cloudflare-cert.pem
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
