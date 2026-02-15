@@ -60,18 +60,18 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .brand img {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 20px;
   background: #fff;
-  padding: 6px;
+  padding: 16px;
   box-shadow: var(--shadow);
 }
 
