@@ -54,24 +54,24 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: 20px 0;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .brand img {
-  width: 180px !important;
-  height: 180px !important;
-  border-radius: 20px;
+  width: 240px !important;
+  height: 240px !important;
+  border-radius: 24px;
   background: #fff;
-  padding: 16px;
+  padding: 20px;
   box-shadow: var(--shadow);
 }
 
